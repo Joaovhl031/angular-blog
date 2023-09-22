@@ -1,4 +1,4 @@
-<div class="conteiner__small-card">
+<a [routerLink]="['content', Id]"><div class="conteiner__small-card">
   <div class="conteiner__small-card-content">
     <div class="small-card__photo">
       <img
@@ -8,10 +8,11 @@
     </div>
 
     <div class="small-card__title">
-      <h1><a href="https://www.justwatch.com/br/serie/jujutsu-kaisen">{{ cardTitle }}</a></h1>
+      <h1>{{ cardTitle }}</h1>
     </div>
   </div>
   <div class="small-card__separator">
     <hr />
   </div>
 </div>
+</a>
