@@ -6,3 +6,17 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 600px){
+  .conteiner__articles {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .articles__other{
+    display: flex;
+    flex-direction:column;
+  }
+ }
