@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+  .conteiner__menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .conteiner__menu-bar > ul > li {
+    font-size: xx-small;
+    margin-right: 20px;
+    list-style: none;
+  }
+}

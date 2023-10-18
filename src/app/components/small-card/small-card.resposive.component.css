@@ -1,7 +1,6 @@
-@media screen {
+@media screen and (max-width: 600px){
   .conteiner__small-card {
-    width: 390px;
-    margin-top: 20px;
+    width: 380px;
     margin: 20px;
   }
 
